@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FanLiPCApp">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>返利后台</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/styles.css" rel="stylesheet">
+		<!--
+			作者：vinke
+			时间：2016-04-19
+			描述：公共库css在此引入，在src/css/admin新建,如make/make.css
+		-->
+
+	</head>
+
+	<body>
+		
+		<div ng-view></div>
+
+		<!--
+			作者：vinke
+			时间：2016-04-19
+			描述：本地库，固定
+		-->
+		<script src="../framework/angular.min.js"></script>
+		<script src="../framework/angular-route.min.js"></script>
+		<script src="../framework/APIConnection.min.js"></script>
+
+		<script src="../framework/admin/jquery-1.11.1.min.js"></script>
+		<script src="../framework/admin/bootstrap.min.js"></script>
+		<script src="../framework/layer/layer.js"></script>
+		<!--
+			作者：vinke
+			时间：2016-04-19
+			描述：公共库js在此引入
+		-->
+
+		<script src="../js/admin/app.js"></script>
+		<!--
+        	作者：vinke
+        	时间：2016-04-19
+        	描述：业务逻辑js在此引入，在src/js/admin新建,如make/make.js
+    	-->
+
+	</body>
+
+</html>
